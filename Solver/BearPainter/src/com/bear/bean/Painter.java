@@ -1,10 +1,20 @@
 package com.bear.bean;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 import com.bear.intf.Intf_Graph;
+import com.bear.intf.Intf_Node;
 import com.bear.intf.Intf_Painter;
 
 public class Painter implements Intf_Painter{
 	private Intf_Graph g;
+	private HashMap<Integer,Intf_Node> loads = 
+			new HashMap<Integer,Intf_Node>();
+			
+	private ArrayList<Intf_Node> sequence = 
+			new ArrayList<Intf_Node>();
+	
 	
 	@Override
 	public void setUpCanvas(Intf_Graph g) {
@@ -35,7 +45,8 @@ public class Painter implements Intf_Painter{
 	
 	
 	private void clearMind() {
-		
+		loads.clear();
+		sequence.clear();
 	}
 	
 	private void plan() {
