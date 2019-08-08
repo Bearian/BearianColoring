@@ -1,6 +1,7 @@
 package com.bear.bean;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 import com.bear.intf.Intf_Node;
 
@@ -50,6 +51,11 @@ public class Node implements Intf_Node{
 		}
 	}
 	
+	
+	
+	
+	
+	
 	public String toString() {
 		String rs = "";
 		rs = rs + linkInfo();
@@ -74,5 +80,16 @@ public class Node implements Intf_Node{
 		}
 		rs = rs + "\n";
 		return rs;
+	}
+
+	
+	
+	
+	
+	
+	@Override
+	public Iterator<Integer> iterator() {
+		// TODO Auto-generated method stub
+		return this.links.iterator();
 	}
 }

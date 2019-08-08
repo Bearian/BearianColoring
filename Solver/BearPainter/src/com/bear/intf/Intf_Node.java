@@ -1,6 +1,6 @@
 package com.bear.intf;
 
-public interface Intf_Node {
+public interface Intf_Node extends Iterable<Integer>{
 	public void link(int index);
 	public void release(int index);
 	
