@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.bear.intf.Intf_Node"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="com.bear.bean.Node"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.bear.bean.Graph"/>
+<fullyQualifiedTypeName name="com.bear.bean.Painter"/>
+<fullyQualifiedTypeName name="com.bear.intf.Intf_Painter"/>
+<fullyQualifiedTypeName name="com.bear.intf.Intf_Graph"/>
+<fullyQualifiedTypeName name="com.bear.intf.Intf_GraphBuilder"/>
+<fullyQualifiedTypeName name="java.nio.file.Path"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.bear.bean.GraphBuilder"/>
+<fullyQualifiedTypeName name="com.bear.intf.Intf_GraphWriter"/>
+<fullyQualifiedTypeName name="com.bear.intf.Intf_Node"/>
+<fullyQualifiedTypeName name="com.bear.bean.GraphWriter"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>

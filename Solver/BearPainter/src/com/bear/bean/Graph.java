@@ -37,5 +37,13 @@ public class Graph implements Intf_Graph{
 		}
 		return graph.get(index);
 	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		for(Intf_Node node:this.graph) {
+			System.out.println(node.getColor());
+		}
+	}
 	
 }

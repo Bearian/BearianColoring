@@ -2,14 +2,15 @@ package com.bear.bean;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedList;
 
 import com.bear.intf.Intf_Node;
 
 public class Node implements Intf_Node{
 	private int color = 0;
 	
-	private HashSet<Integer> links = new HashSet<Integer>();
-	private HashSet<Integer> inhibits = new HashSet<Integer>();
+	private LinkedList<Integer> links = new LinkedList<Integer>();
+	private LinkedList<Integer> inhibits = new LinkedList<Integer>();
 	
 	@Override
 	public void link(int index) {
